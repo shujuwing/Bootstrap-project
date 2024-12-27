@@ -1,0 +1,115 @@
+
+
+.logo{
+    width: 50px;
+    border-radius: 16px;
+}
+
+.hero{
+    background:  linear-gradient(to left, rgba(13, 24, 88, 0.527), rgba(13, 24, 88, 0.527)), url(https://cdn.dribbble.com/userupload/3665721/file/original-1da5cd11bfa6477ab22d209f7450faea.png?resize=1024x596&vertical=center) center center/cover no-repeat;
+    height: 95vh;
+}
+
+
+.hero .container h3{
+    font: 55px "sans-serif" ;
+    font-weight: 700;
+    color: #ffffffff;
+    text-align: center;
+    padding-top: 14rem;
+    
+}
+
+.hero .container p{
+    font: 30px "sans-serif";
+    color: #ffffffff;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.hero_btn{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.project{
+    padding: 4rem 0;
+    background: linear-gradient(115deg, #004ff9, #000000);
+    
+}
+
+.project-title{
+    font: 35px "sans-serif";
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 2rem 0;
+}
+
+.about{
+    padding: 8rem 0;
+    background: linear-gradient(115deg, #12063b, #09555c);
+}
+
+.about-title{
+    text-align: center;
+    font: 55px "sans-serif";
+    font-weight: 700;
+    padding-bottom: 4rem;
+}
+
+.about-title h3{
+    font: 55px "sans-serif";
+    color: #ffffffff;
+    font-weight: 700;
+}
+
+.team-member{
+    height: 700px;
+}
+
+.client{
+    padding: 8rem 0;
+    background: linear-gradient(115deg, #004ff9, #000000);
+}
+
+.client-title{
+    text-align: center;
+    font: 55px "sans-serif";
+    font-weight: 700;
+    padding-bottom: 4rem;
+}
+
+.client-title h3{
+    font: 55px "sans-serif";
+    color: #ffffffff;
+    font-weight: 700;
+}
+
+.learn{
+    padding: 8rem 0;
+    background: linear-gradient(115deg, #2c3e50, #58b8c7);
+}
+
+.learn-title{
+    text-align: center;
+    font: 55px "sans-serif";
+    font-weight: 700;
+    padding-bottom: 4rem;
+}
+
+.learn-title h3{
+    font: 55px "sans-serif";
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.learn-para{
+    text-align: center;
+    color: #ffffffff;
+}
+
+footer{
+    padding: 2rem 0;
+    background: linear-gradient(115deg, #ffffff, #d4dfed);
+}

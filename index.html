@@ -1,30 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Bootstrap</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello Bootstrap</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container gap-5">
+      <div class="logoplusname d-flex gap-4 align-items-center">
+        <img class="logo"
+          src="https://epss.ucla.edu/static/bootstrap-5.2.3/site/static/docs/5.2/assets/brand/bootstrap-social-logo.png"
+          alt="">
+        <a href="#" class="fs-3 text-decoration-none">Bootstrap</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Thik ase</a></li>
+              <li><a class="dropdown-item" href="#">Shera</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-    <header> </header>
+  <div class="hero">
+    <div class="container ">
+      <h3>Why use bootstrap ?</h3>
+      <p>Don't Use Bootstrap, it's a terrible thing to work with. <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur <br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque <br>
+      </p>
+      <div class="hero_btn">
 
-    <div class="hero"></div>
+        <button type="button" class="btn btn-primary btn-lg">Don't Learn</button>
+      </div>
+    </div>
+  </div>
 
-    <div class="about"></div>
+  <div class="project">
+    <div class="container text-center">
+      <div class="client-title">
+        <h3 class="project-title">Check Out Our Work</h3>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card ">
+            <img
+              src="https://cdn.dribbble.com/userupload/6313295/file/original-726c2325f94511e7dd84ef0aeb63e515.png?resize=1024x768&vertical=center"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card ">
+            <img
+              src="https://cdn.dribbble.com/userupload/15813496/file/original-c42792957965f9ef95e0cdd9332c9e63.png?resize=1024x768&vertical=center"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card ">
+            <img
+              src="https://cdn.dribbble.com/userupload/15813500/file/original-329e801c922241fdb92ccb7daaf4dee4.png?resize=752x564&vertical=center"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <div class="project"></div>
 
-    <div class="client"></div>
 
-    <div class="team"></div>
 
-    <div class="pricing"></div>
+  </div>
 
-    <div class="contact"></div>
+  <div class="about">
+    <div class="container">
+      <div class="about-title">
+        <h3>Our Trusty Team Members</h3>
+      </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active  team-member">
+            <img src="https://wallpapers.com/images/hd/president-donald-trump-9bvxk3h7h5b4uax5.webp"
+              class="d-block w-100 rounded-2 " alt="...">
+          </div>
+          <div class="carousel-item  team-member">
+            <img src="https://wallpapers.com/images/hd/cristiano-ronaldo-cr7-nike-uoeeyk3ouu4lehye.webp"
+              class="d-block w-100 rounded-2" alt="...">
+          </div>
+          <div class="carousel-item  team-member">
+            <img src="https://wallpapers.com/images/featured/shaq-06g7tr4ucgnphwzv.webp" class="d-block w-100 rounded-2"
+              alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
 
-    <footer> </footer>
+  <div class="client">
 
+    <div class="container text-center">
+      <div class="client-title">
+        <h3>Clients We've Worked With</h3>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="https://www.zarla.com/images/nike-logo-2400x2400-20220504.png?crop=1:1,smart&width=150&dpr=2"
+            class="rounded-4" alt="">
+        </div>
+        <div class="col">
+          <img src="https://www.zarla.com/images/apple-logo-2400x2400-20220512-3.png?crop=1:1,smart&width=150&dpr=2"
+            class="rounded-4" alt="">
+        </div>
+        <div class="col">
+          <img src="https://www.zarla.com/images/toyota-logo-2400x2400-20220513-1.png?crop=1:1,smart&width=150&dpr=2"
+            class="rounded-4" alt="">
+        </div>
+        <div class="col">
+
+          <img src="https://www.zarla.com/images/batman-logo-2400x2400-20220518.png?crop=1:1,smart&width=150&dpr=2"
+            class="rounded-4" alt="">
+        </div>
+        <div class="col">
+
+          <img src="https://www.zarla.com/images/microsoft-logo-2400x2400-20223105.png?crop=1:1,smart&width=150&dpr=2"
+            class="rounded-4" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="learn">
+    <div class="container">
+      <div class="learn-title">
+        <h3>Some Advise</h3>
+      </div>
+
+      <div class="learn-para">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+          Corporis sequi consequatur at excepturi sed beatae ex quia soluta <br>
+          iure quasi aut earum illum fugit, molestias repellat tenetur, nisi <br>
+          voluptatibus. Aliquam culpa, quam ratione nesciunt modi quo pariatur <br>
+          accusamus, voluptatum natus odit dolore ipsum. Numquam, natus. Fuga <br>
+        </p>
+        <ul class=" list-group-flush">
+          <li class="list-group-item">Learn About Bootstrap</li>
+          <li class="list-group-item">Learn It's usecase</li>
+          <li class="list-group-item">Learn it's Documentation</li>
+          <li class="list-group-item">Learn SASS product</li>
+
+        </ul>
+        <h3>And Now Regret you're whole life</h3>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+
+  <footer>
+
+    <div class="container d-flex align-content-center">
+
+      <div class="p-2 flex-grow-1">
+        <img class="logo"
+          src="https://epss.ucla.edu/static/bootstrap-5.2.3/site/static/docs/5.2/assets/brand/bootstrap-social-logo.png"
+          alt="">
+          <a href="#" class="fs-3 text-decoration-none">Bootstrap</a>
+          
+      </div>
+      <div class="p-2">
+        <ul class=" list-group-flush">
+          <li class="list-group-item">Links</li>
+          <li class="list-group-item">Facebooks</li>
+          <li class="list-group-item">Linkdin</li>
+          <li class="list-group-item">Github</li>
+
+        </ul>
+
+      </div>
+      <div class="p-2">
+
+        <ul class=" list-group-flush">
+          <li class="list-group-item">Address</li>
+          <li class="list-group-item">69-rd,house-69</li>
+          <li class="list-group-item">Dhaka</li>
+          <li class="list-group-item">Dhanmondi</li>
+
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
